@@ -37,8 +37,14 @@
                         <hr>
                         <!-- show product -->
                         <?php 
-                        for($i=0;$i<5;$i++){
-                            showproduct("","01","product_name","12.50 bath");
+                        $mydb = new mysqli("localhost","root","","shopshock");
+                        $mydb->set_charset("utf8");
+                        $sql = "SELECT Product_code,Product_Name,Stock_Quantity FROM `product`";
+                        $result = $mydb->query($sql);
+                        $data = $result->fetch_all(MYSQLI_NUM);
+                        // print_r($data);
+                        for($i=0;$i<sizeof($data);$i++){
+                            showproduct("",$data[$i][0],$data[$i][1],$data[$i][2]);
                         }
                         function showproduct($img,$product_code,$product_name,$product_price){
                         ?>
