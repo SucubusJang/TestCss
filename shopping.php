@@ -2,12 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ustora Demo - freshDesignweb</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100" rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="ustora/css/bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="ustora/css/font-awesome.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="ustora/css/owl.carousel.css">
+    <link rel="stylesheet" href="ustora/css/style.css">
+    <link rel="stylesheet" href="ustora/css/responsive.css">
 
+  </head>
 <body>
 
     <div class="header-area">
@@ -18,8 +34,8 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                            <li><a href="cart.htm"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.htm"><i class="fa fa-user"></i> Checkout</a></li>
+                            <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
+                            <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
                         </ul>
                     </div>
@@ -57,7 +73,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="./"><img src="img/logo.png"></a></h1>
+                        <h1><a href="./"><img src="ustora/img/logo.png"></a></h1>
                     </div>
                 </div>
 
@@ -105,7 +121,7 @@
             <div class="bx-wrapper" style="max-width: 100%;">
                 <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 309px;">
                     <ul class="" id="bxslider-home4" style="width: 615%; position: relative; transition-duration: 0.5s; transform: translate3d(-4970px, 0px, 0px);">
-                        <li style="float: left; list-style: none; position: relative; width: 986px;" class="bx-clone"><img src="img/h4-slide4.png" alt="Slide">
+                        <li style="float: left; list-style: none; position: relative; width: 986px;" class="bx-clone"><img src="ustora/img/h4-slide4.png" alt="Slide">
                             <div class="caption-group">
                                 <h2 class="caption title animated fadeInRight">
                                     Apple <span class="primary">Store <strong>Ipod</strong></span>
@@ -115,7 +131,7 @@
                             </div>
                         </li>
                         <li style="float: left; list-style: none; position: relative; width: 986px;">
-                            <img src="img/h4-slide.png" alt="Slide">
+                            <img src="ustora/img/h4-slide.png" alt="Slide">
                             <div class="caption-group">
                                 <h2 class="caption title" style="display: none;">
                                     iPhone <span class="primary">6 <strong>Plus</strong></span>
@@ -124,7 +140,7 @@
                                 <a class="caption button-radius" href="#" style="display: none;"><span class="icon"></span>Shop now</a>
                             </div>
                         </li>
-                        <li style="float: left; list-style: none; position: relative; width: 986px;"><img src="img/h4-slide2.png" alt="Slide">
+                        <li style="float: left; list-style: none; position: relative; width: 986px;"><img src="ustora/img/h4-slide2.png" alt="Slide">
                             <div class="caption-group">
                                 <h2 class="caption title animated fadeInRight" style="display: block;">
                                     by one, get one <span class="primary">50% <strong>off</strong></span>
@@ -133,7 +149,7 @@
                                 <a class="caption button-radius animated fadeInRight" href="#" style="display: inline-block;"><span class="icon"></span>Shop now</a>
                             </div>
                         </li>
-                        <li style="float: left; list-style: none; position: relative; width: 986px;"><img src="img/h4-slide3.png" alt="Slide">
+                        <li style="float: left; list-style: none; position: relative; width: 986px;"><img src="ustora/img/h4-slide3.png" alt="Slide">
                             <div class="caption-group">
                                 <h2 class="caption title animated fadeInRight" style="display: block;">
                                     Apple <span class="primary">Store <strong>Ipod</strong></span>
@@ -142,7 +158,7 @@
                                 <a class="caption button-radius animated fadeInRight" href="#" style="display: inline-block;"><span class="icon"></span>Shop now</a>
                             </div>
                         </li>
-                        <li style="float: left; list-style: none; position: relative; width: 986px;"><img src="img/h4-slide4.png" alt="Slide">
+                        <li style="float: left; list-style: none; position: relative; width: 986px;"><img src="ustora/img/h4-slide4.png" alt="Slide">
                             <div class="caption-group">
                                 <h2 class="caption title animated fadeInRight" style="display: block;">
                                     Apple <span class="primary">Store <strong>Ipod</strong></span>
@@ -152,7 +168,7 @@
                             </div>
                         </li>
                         <li style="float: left; list-style: none; position: relative; width: 986px;" class="bx-clone">
-                            <img src="img/h4-slide.png" alt="Slide">
+                            <img src="ustora/img/h4-slide.png" alt="Slide">
                             <div class="caption-group">
                                 <h2 class="caption title animated fadeInRight">
                                     iPhone <span class="primary">6 <strong>Plus</strong></span>
@@ -217,18 +233,12 @@
                     <div class="latest-product">
                         <h2 class="section-title">Latest Products</h2>
                         <div class="product-carousel owl-carousel owl-theme owl-responsive-1000 owl-loaded">
-
-
-
-
-
-
                             <div class="owl-stage-outer">
                                 <div class="owl-stage" style="transform: translate3d(-1160px, 0px, 0px); transition: all 0s ease 0s; width: 3712px;">
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-2.jpg" alt="">
+                                                <img src="ustora/img/product-2.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -244,7 +254,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-3.jpg" alt="">
+                                                <img src="ustora/img/product-3.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -261,7 +271,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-4.jpg" alt="">
+                                                <img src="ustora/img/product-4.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -278,7 +288,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-5.jpg" alt="">
+                                                <img src="ustora/img/product-5.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -295,7 +305,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-6.jpg" alt="">
+                                                <img src="ustora/img/product-6.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -312,7 +322,7 @@
                                     <div class="owl-item active" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-1.jpg" alt="">
+                                                <img src="ustora/img/product-1.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -329,7 +339,7 @@
                                     <div class="owl-item active" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-2.jpg" alt="">
+                                                <img src="ustora/img/product-2.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -345,7 +355,7 @@
                                     <div class="owl-item active" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-3.jpg" alt="">
+                                                <img src="ustora/img/product-3.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -362,7 +372,7 @@
                                     <div class="owl-item active" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-4.jpg" alt="">
+                                                <img src="ustora/img/product-4.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -379,7 +389,7 @@
                                     <div class="owl-item active" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-5.jpg" alt="">
+                                                <img src="ustora/img/product-5.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -396,7 +406,7 @@
                                     <div class="owl-item" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-6.jpg" alt="">
+                                                <img src="ustora/img/product-6.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -413,7 +423,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-1.jpg" alt="">
+                                                <img src="ustora/img/product-1.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -430,7 +440,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-2.jpg" alt="">
+                                                <img src="ustora/img/product-2.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -446,7 +456,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-3.jpg" alt="">
+                                                <img src="ustora/img/product-3.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -463,7 +473,7 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-4.jpg" alt="">
+                                                <img src="ustora/img/product-4.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                                     <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -480,10 +490,10 @@
                                     <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
                                             <div class="product-f-image">
-                                                <img src="img/product-5.jpg" alt="">
+                                                <img src="ustora/img/product-5.jpg" alt="">
                                                 <div class="product-hover">
                                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                                    <a href="single-product.htm" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                                    <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                                 </div>
                                             </div>
 
@@ -520,32 +530,24 @@
                 <div class="col-md-12">
                     <div class="brand-wrapper">
                         <div class="brand-list owl-carousel owl-theme owl-responsive-1000 owl-loaded">
-
-
-
-
-
-
-
-
                             <div class="owl-stage-outer">
                                 <div class="owl-stage" style="transform: translate3d(-1160px, 0px, 0px); transition: all 0s ease 0s; width: 4640px;">
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand5.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand6.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand1.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand2.png" alt=""></div>
-                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="img/brand1.png" alt=""></div>
-                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="img/brand2.png" alt=""></div>
-                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="img/brand3.png" alt=""></div>
-                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="img/brand4.png" alt=""></div>
-                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="img/brand5.png" alt=""></div>
-                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="img/brand6.png" alt=""></div>
-                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="img/brand1.png" alt=""></div>
-                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="img/brand2.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand1.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand2.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand3.png" alt=""></div>
-                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="img/brand4.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand5.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand6.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand1.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand2.png" alt=""></div>
+                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand1.png" alt=""></div>
+                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand2.png" alt=""></div>
+                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand3.png" alt=""></div>
+                                    <div class="owl-item active" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand4.png" alt=""></div>
+                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand5.png" alt=""></div>
+                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand6.png" alt=""></div>
+                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand1.png" alt=""></div>
+                                    <div class="owl-item" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand2.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand1.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand2.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand3.png" alt=""></div>
+                                    <div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><img src="ustora/img/brand4.png" alt=""></div>
                                 </div>
                             </div>
                             <div class="owl-controls">
@@ -574,7 +576,7 @@
                         <h2 class="product-wid-title">Top Sellers</h2>
                         <a href="" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Sony Smart TV - 2015</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -588,7 +590,7 @@
                             </div>
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Apple new mac book 2015</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -602,7 +604,7 @@
                             </div>
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Apple new i phone 6</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -622,7 +624,7 @@
                         <h2 class="product-wid-title">Recently Viewed</h2>
                         <a href="#" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Sony playstation microsoft</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -636,7 +638,7 @@
                             </div>
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Sony Smart Air Condtion</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -650,7 +652,7 @@
                             </div>
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Samsung gallaxy note 4</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -670,7 +672,7 @@
                         <h2 class="product-wid-title">Top New</h2>
                         <a href="#" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Apple new i phone 6</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -684,7 +686,7 @@
                             </div>
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Samsung gallaxy note 4</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
@@ -698,7 +700,7 @@
                             </div>
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.htm"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
+                            <a href="single-product.htm"><img src="ustora/img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
                             <h2><a href="single-product.htm">Sony playstation microsoft</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
