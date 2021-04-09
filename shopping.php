@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ustora Demo - freshDesignweb</title>
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,100" rel="stylesheet" type="text/css">
-    
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="ustora/css/bootstrap.min.css">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="ustora/css/font-awesome.min.css">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="ustora/css/owl.carousel.css">
     <link rel="stylesheet" href="ustora/css/style.css">
     <link rel="stylesheet" href="ustora/css/responsive.css">
 
-  </head>
+</head>
+
 <body>
 
     <div class="header-area">
@@ -34,7 +35,7 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                            <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> My Cart</a></li>
                             <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
                         </ul>
@@ -73,7 +74,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="./"><img src="ustora/img/logo.png"></a></h1>
+                        <h1><a href="./"><img src="https://sites.google.com/a/fitm.kmutnb.ac.th/faculty-of-industrial-technology-and-management/_/rsrc/1375689189895/logo/FITM%20LOGO%20EN%20COLOR.png?height=117&width=200"></a></h1>
                     </div>
                 </div>
 
@@ -103,7 +104,7 @@
                             <li class="active"><a href="index.htm">Home</a></li>
                             <li><a href="shop.htm">Shop page</a></li>
                             <li><a href="single-product.htm">Single product</a></li>
-                            <li><a href="cart.htm">Cart</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#myModal">Cart</a></li>
                             <li><a href="checkout.htm">Checkout</a></li>
                             <li><a href="#">Category</a></li>
                             <li><a href="#">Others</a></li>
@@ -114,6 +115,24 @@
             </div>
         </div>
     </div> <!-- End mainmenu area -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <?php
+                    include_once("index.php");
+                    ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="slider-area">
         <!-- Slider -->
@@ -824,6 +843,7 @@
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-10146041-25"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag() {
             dataLayer.push(arguments);
         }
