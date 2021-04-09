@@ -808,8 +808,8 @@
 
     <!-- jQuery sticky menu -->
     <script src="ustora/js/owl.carousel.min.js"></script>
+    <script src="ustora/js/jquery-3.6.0.min.js"></script>
     <script src="ustora/js/jquery.sticky.js"></script>
-
     <!-- jQuery easing -->
     <script src="ustora/js/jquery.easing.1.3.min.js"></script>
 
@@ -817,12 +817,13 @@
     <script src="ustora/js/main.js"></script>
 
     <!-- Slider -->
-    <script type="text/javascript" src="ustora/js/bxslider.min.js"></script>
-    <script type="text/javascript" src="ustora/js/script.slider.js"></script>
+    <script src="ustora/js/script.slider.js"></script>
+    <script src="ustora/js/bxslider.min.js"></script>
+    <!-- <script type="text/javascript" src="ustora/js/bxslider.min.js"></script> -->
+    <!-- <script type="text/javascript" src="ustora/js/script.slider.js"></script> -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-10146041-25"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
